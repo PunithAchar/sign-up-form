@@ -1,0 +1,24 @@
+.signform{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   height: 85vh;
+   margin: 5% auto;
+}
+
+.signform .form{
+ padding: 10px 20px;
+}
+
+.signform .image{
+    padding: 0;
+}
+img{
+    height: 85vh;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 450px){
+    .signform .image{
+        display: none;
+    }
+}

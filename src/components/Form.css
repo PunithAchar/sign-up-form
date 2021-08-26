@@ -1,0 +1,148 @@
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 10px;
+}
+
+h4 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.form-h p {
+    font-weight: 700;
+}
+
+.social-login p {
+    font-size: small;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.589);
+}
+
+.social-login button {
+    border: 1px solid rgba(0, 0, 0, 0.294);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: fit-content;
+    width: 150px;
+    margin-top: 4px;
+    margin-right: 20px;
+    font-size: small;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1000px){
+    .social-login button{
+        width: 100px;
+        margin-right: 5px;  
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .social-login button{
+        width: 90px;
+        margin-right: 5px;  
+        font-size:x-small;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .social-login button{
+        width: 90px;
+        margin-right: 5px;  
+        font-size:x-small;
+        font-weight: bold;
+    }
+}
+
+.social-login button img {
+    width: 20px;
+    height: 20px;
+}
+
+/* divider-css */
+
+.text-divider {
+    display: flex;
+    align-items: center;
+    font-size: x-small;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.text-divider::before,
+.text-divider::after {
+    content: '';
+    height: 1px;
+    background-color: silver;
+    flex-grow: 1;
+}
+
+
+
+/* info-css */
+
+.info form input {
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 5px auto 20px;
+    outline: none;
+}
+
+.info .frgtpsw {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    font-size: small;
+}
+
+.info .frgtpsw .fpsw {
+    color: #86330aef;
+    margin-left: 60px;
+    font-weight: 600;
+}
+
+.info button {
+    color: white;
+    width: 80%;
+    background-color: #86330aef;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    border-radius: 5px;
+    margin: 10px auto 0px;
+    outline: none;
+
+}
+
+@media only screen and (max-width: 1000px){
+    .info .frgtpsw{
+        margin-right: 0px;
+    font-size: small;  
+    }
+
+    .info .frgtpsw .fpsw{
+        margin-left: 30px;
+    font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 750px){
+       
+    .info .frgtpsw{
+        margin-right: 0px;
+    font-size:x-small;  
+    font-weight: bolder;
+    }
+
+
+    .info .frgtpsw .fpsw{
+        margin-left: 10px;
+        font-weight: bolder;
+        font-size: x-small;
+    }
+}
+
